@@ -49,7 +49,7 @@ public class OnBoardingActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(OnBoardingActivity.this, MainActivity.class));
+                startActivity(new Intent(OnBoardingActivity.this, ShopActivity.class));
                 finish();
             }
         });
