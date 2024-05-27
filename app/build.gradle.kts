@@ -38,8 +38,12 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.play.services.ads.lite)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    implementation("androidx.cardview:cardview:1.0.0") // Updated to AndroidX
+    implementation("com.squareup.picasso:picasso:2.8") // Updated to a newer version
+    implementation("androidx.recyclerview:recyclerview:1.2.1") // Updated to AndroidX
 }
